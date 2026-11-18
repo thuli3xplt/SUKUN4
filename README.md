@@ -93,7 +93,8 @@ Same-LAN `C2_HOST` values (`192.168.x.x`) do not route across networks. For a re
 | `help` / `exit` | — |
 
 ---
-<img width="958" height="780" alt="image" src="https://github.com/user-attachments/assets/c67ced77-e711-417c-bfa2-b9e8d6b83d8c" />
+<img width="965" height="785" alt="image" src="https://github.com/user-attachments/assets/2ed85447-3185-4ac0-914e-4f8774b07b7f" />
+
 
 
 ## layout
