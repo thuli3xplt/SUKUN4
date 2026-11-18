@@ -1,0 +1,38 @@
+﻿# Python
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# runtime output
+loot/
+_scratch/
+*.log
+attacker.log
+build.log
+run.log
+
+# pyinstaller
+/dist/
+/build/
+!build/windows/
+*.spec
+
+# secrets / captures
+*.key
+*.pem
+*.ovpn
+.env
+_credentials*
+*_credentials*
+
+# OS
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
