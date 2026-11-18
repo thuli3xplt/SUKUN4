@@ -34,12 +34,14 @@ SUKUN4 is a lab C2 framework for Windows. A Tk GUI operator console with banner,
 ## quickstart
 
 ### attacker
-git clone https://github.com/<you>/SUKUN4.git
+```
+git clone https://github.com/thuli3xplt/SUKUN4.git
 cd SUKUN4
 python -m venv .venv
-..venv\Scripts\Activate.ps1
+.\.venv\Scripts\Activate.ps1
 pip install -r requirements-attacker.txt
 python attacker.py
+```
 
 **text**
 
