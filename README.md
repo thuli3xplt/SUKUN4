@@ -9,6 +9,9 @@
 
 SUKUN4 is a lab C2 framework for Windows. A Tk GUI operator console with banner, live webcam panel, and color-tagged output, plus a single-file Windows implant with shell, file transfer, capture, keylog, and desktop control.
 
+<img width="874" height="313" alt="image" src="https://github.com/user-attachments/assets/505f693d-005c-4355-b68f-020ce056c7b2" />
+
+
 **For use only on systems you own or have explicit written permission to test.** See [Legal](#legal).
 
 ---
