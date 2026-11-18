@@ -1,6 +1,6 @@
 ﻿# SUKUN4
 
-> c2 operator console — windows implant + gui listener
+> C2 operator console — windows implant + gui listener
 
 [![python](https://img.shields.io/badge/python-3.10%2B-blue)](https://www.python.org/)
 [![platform](https://img.shields.io/badge/platform-windows-lightgrey)](https://www.microsoft.com/windows)
